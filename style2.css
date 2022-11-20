@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.description{
+    width: 600px;
+    height: 250px;
+    margin:none;
+    color: white;
+    position:relative;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 50px;
+
+    
+}
+
+.description .info{
+    padding-left: 0px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.description .bt{
+    width: 140px;
+    height: 40px;
+    background: white;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
