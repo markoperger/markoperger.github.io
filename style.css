@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 200px;
+    margin: none;
+}
+
+.icon{
+    width: 200;
+    float:left;
+    height: 75;
+}
+
+.logo{
+    color: white;
+    padding-left: 20px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: -20px;
+    float: right;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 80px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+.description{
+    width: 600px;
+    height: 250px;
+    margin: none;
+    color: white;
+    position:relative;
+    font-size: 30px;
+    padding-left: 20px;
+    
+}
+
+.description .slogan{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.description .bt{
+    width: 140px;
+    height: 40px;
+    background: white;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+ 
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 3rem;
+  }
+
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: 5rem;
+    height: 200px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  @media print {
+    .navbar, .bt {display: none !important;}
+    .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+
+}
+  
